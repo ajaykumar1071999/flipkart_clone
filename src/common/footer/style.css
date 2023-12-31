@@ -1,0 +1,38 @@
+.footer-wrapper {
+  border: solid red 1px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  height: 300px;
+
+  & .footer-content {
+    padding: 15px 35px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & .social-media-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+
+
+
+      & .footer-about{
+        /* color: rgb(112, 108, 108);
+        font-size: 15px;
+        font-family: 'poppins'; */
+      }
+      & .text{
+        color: rgb(112, 108, 108);
+        font-size: 15px;
+        font-family: 'poppins';
+        font-weight: 600;
+
+      }
+    }
+  }
+}
