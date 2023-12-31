@@ -7,7 +7,7 @@
   height: 300px;
 
   & .footer-content {
-    padding: 15px 35px;
+    padding: 40px 60px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -16,22 +16,30 @@
     & .social-media-wrapper {
       display: flex;
       justify-content: space-between;
-      align-items: center;
       gap: 30px;
-
-
-
-      & .footer-about{
-        /* color: rgb(112, 108, 108);
-        font-size: 15px;
-        font-family: 'poppins'; */
+      & .footer-about p {
+        text-transform: uppercase;
+        margin: 0;
       }
-      & .text{
-        color: rgb(112, 108, 108);
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        color: #fff;
+        cursor: pointer;
+        font-size: 12px;
+        padding: 2px 0px;
+        box-sizing: border-box;
+      }
+      li:hover {
+        text-decoration: underline;
+      }
+      & .text {
+        color: #878787;
         font-size: 15px;
-        font-family: 'poppins';
+        font-family: "poppins";
         font-weight: 600;
-
       }
     }
   }
