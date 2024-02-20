@@ -30,26 +30,28 @@ function Footer() {
                 </ul>
               </div>
               <div className="footer-cunsumer-policy text">Consumer Policy
-              <ul>
-              <li>Cancellation & Returns</li>
-              <li>Terms Of Use</li>
-              <li>Security</li>
-              <li>Privacy</li>
-              <li>Sitemap</li>
-              <li>Grievance Redressal</li>
-              <li>EPR Compliance</li>
-              </ul>
+                <ul>
+                  <li>Cancellation & Returns</li>
+                  <li>Terms Of Use</li>
+                  <li>Security</li>
+                  <li>Privacy</li>
+                  <li>Sitemap</li>
+                  <li>Grievance Redressal</li>
+                  <li>EPR Compliance</li>
+                </ul>
               </div>
               <div className="footer-social text">Social
-              
-              <ul>
-                <li>Facebook</li>
-                <li>Twitter</li>
-                <li>Youtube</li>
-              </ul>
+                <ul>
+                  <li>Facebook</li>
+                  <li>Twitter</li>
+                  <li>Youtube</li>
+                </ul>
               </div>
+            <div className="vertical-line"></div>
             </div>
-            <div className="contact-rapper">mail Us</div>
+            <div className="contact-wrapper">
+              <div></div>
+            </div>
           </div>
           <div className="">2</div>
         </div>

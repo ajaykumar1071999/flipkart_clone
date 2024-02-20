@@ -10,8 +10,8 @@
     padding: 40px 60px;
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    /* align-items: center; */
 
     & .social-media-wrapper {
       display: flex;
@@ -42,5 +42,15 @@
         font-weight: 600;
       }
     }
+  }
+  & .vertical-line{
+    height: 200px;
+    border-left: 1px solid gray;
+    box-sizing: border-box;
+    margin-left: 120px;
+  }
+
+  & .contact-wrapper{
+
   }
 }
